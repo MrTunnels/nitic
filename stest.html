@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+	<title>SE Final Check</title>
+</head>
+<body>
+<script type="text/javascript">
+	var skey = $.cookie('skey');
+	if (skey) {
+		document.write("SKEY:"+skey+"<br />\n");
+		$.ajax({
+			url:"skeytest.php",
+			method: "POST",
+			data: {
+				skey: skey
+			},
+			dataType: "json",
+			error: function() {
+				document.write("Cannot connect to server, please reload page.");
+			},
+			success: function(data) {
+				document.write(data.result);
+			}
+		});
+	} else {
+		document.write("Not visited, Ok.");
+	}
+</script>
+</body>
+</html>

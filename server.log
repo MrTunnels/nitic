@@ -1,0 +1,523 @@
+
+<Monday 24th of August 2015 02:49:02 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:11 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:18 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:26 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:34 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:41 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:48 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:49:54 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:02 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:10 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:17 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:24 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:33 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 02:50:45 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:38:37 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:38:41 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:39:29 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:42:35 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:42:35 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:42:37 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:42:39 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:42:58 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:43:05 PM> MySQL did not return. (userctrl.php)	
+<Monday 24th of August 2015 11:43:44 PM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:09:55 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:10:29 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:10:36 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:39:58 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:39:58 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:40:18 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:40:23 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:40:53 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:46:27 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:56:43 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:01:39 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:02:29 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:08:06 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:08:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:08:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:09:18 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:09:31 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:16:17 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:24:53 AM> [InvalidRequest-153bb5]	Sell more stocks than owned (trade.php): Sell:900000 Owns:1400000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"OIL","price":"39.02","amt":"900000","action":"SELL"}
+<Tuesday 25th of August 2015 01:25:51 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:26:14 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:26:46 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:28:24 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:28:25 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:28:25 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:29:34 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:37:08 AM> [InvalidRequest-9787df]	Sell more stocks than owned (trade.php): Sell:5000 Owns:5000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"STAH","price":"15.64","amt":"5000","action":"SELL"}
+<Tuesday 25th of August 2015 01:37:22 AM> [InvalidRequest-c59370]	Sell more stocks than owned (trade.php): Sell:1000 Owns:1000
+Requests:
+{"user":"NITIC2015-8","pswd":"7033217c67b7dc15504f06f87a5950812ea384c1","name":"DAVE","price":"74.16","amt":"1000","action":"SELL"}
+<Tuesday 25th of August 2015 01:38:07 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:38:09 AM> [InvalidRequest-38bad3]	Sell more stocks than owned (trade.php): Sell:100 Owns:100
+Requests:
+{"user":"NITIC2015-23","pswd":"7ee7bdafe0f1918018b3667260f7e2e9bec8809a","name":"STAH","price":"15.64","amt":"100","action":"SELL"}
+<Tuesday 25th of August 2015 01:38:10 AM> [InvalidRequest-da3793]	Sell more stocks than owned (trade.php): Sell:100 Owns:100
+Requests:
+{"user":"NITIC2015-23","pswd":"7ee7bdafe0f1918018b3667260f7e2e9bec8809a","name":"STAH","price":"15.64","amt":"100","action":"SELL"}
+<Tuesday 25th of August 2015 01:38:19 AM> [InvalidRequest-edc805]	Sell more stocks than owned (trade.php): Sell:100 Owns:100
+Requests:
+{"user":"NITIC2015-23","pswd":"7ee7bdafe0f1918018b3667260f7e2e9bec8809a","name":"STAH","price":"15.64","amt":"100","action":"SELL"}
+<Tuesday 25th of August 2015 01:38:24 AM> [InvalidRequest-b8dc05]	Sell more stocks than owned (trade.php): Sell:4000 Owns:4000
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"STAH","price":"15.64","amt":"4000","action":"SELL"}
+<Tuesday 25th of August 2015 01:38:30 AM> [InvalidRequest-ad2a81]	Sell more stocks than owned (trade.php): Sell:4000 Owns:4000
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"STAH","price":"15.64","amt":"4000","action":"SELL"}
+<Tuesday 25th of August 2015 01:39:14 AM> [InvalidRequest-97c699]	Sell more stocks than owned (trade.php): Sell:100 Owns:100
+Requests:
+{"user":"NITIC2015-11","pswd":"b10ee7949b8e91fe76f36e41908227093d8a2687","name":"SANF","price":"57.8","amt":"100","action":"SELL"}
+<Tuesday 25th of August 2015 01:45:22 AM> [InvalidRequest-5a3058]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1.844674407361E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"9223372036854776000","action":"SELL"}
+<Tuesday 25th of August 2015 01:45:31 AM> [InvalidRequest-bad7c3]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1.844674407361E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"9223372036854776000","action":"SELL"}
+<Tuesday 25th of August 2015 01:50:29 AM> [InvalidRequest-e7ca40]	Sell more stocks than owned (trade.php): Sell:200000000000000000 Owns:-4023372036854552576
+Requests:
+{"user":"nitic2015-29","pswd":"3480acb507fb92b8af6194a6168cce165d9fe37d","name":"RAIX","price":"0","amt":"200000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 01:51:25 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 01:51:37 AM> [InvalidRequest-35802f]	Sell more stocks than owned (trade.php): Sell:500 Owns:500
+Requests:
+{"user":"NITIC2015-30","pswd":"74fa306ea267065135632f662e3a3541ef8cce4b","name":"SANF","price":"75.36","amt":"500","action":"SELL"}
+<Tuesday 25th of August 2015 01:53:27 AM> [InvalidRequest-aefddf]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.3446744073709E+19
+Requests:
+{"user":"nitic2015-29","pswd":"3480acb507fb92b8af6194a6168cce165d9fe37d","name":"RAIX","price":"0","amt":"1111111111111111111111111111111111111111111111111111111111111111111111111111111111111","action":"BUY"}
+<Tuesday 25th of August 2015 01:53:39 AM> [InvalidRequest-ac74e8]	Sell more stocks than owned (trade.php): Sell:-111111111 Owns:-4223372036965663687
+Requests:
+{"user":"nitic2015-29","pswd":"3480acb507fb92b8af6194a6168cce165d9fe37d","name":"RAIX","price":"0","amt":"111111111","action":"BUY"}
+<Tuesday 25th of August 2015 01:54:02 AM> [InvalidRequest-85f144]	Sell more stocks than owned (trade.php): Sell:1000 Owns:1000
+Requests:
+{"user":"NITIC2015-32","pswd":"d645ad8a4c76ceb01d59c2d67e2dc03219e2d6f1","name":"SANF","price":"75.36","amt":"1000","action":"SELL"}
+<Tuesday 25th of August 2015 02:02:36 AM> [InvalidRequest-549e29]	Buy more stocks than affordable (trade.php): Purchased: Balance:0
+Requests:
+{"user":"NITIC2015-24","pswd":"3e99d6c6140f9ea4e18860fef1623248c7602872","name":"BEAN","price":"338.67","amt":"1086097","action":"BUY"}
+<Tuesday 25th of August 2015 02:02:47 AM> [InvalidRequest-315197]	Sell more stocks than owned (trade.php): Sell:-8000 Owns:-10000
+Requests:
+{"user":"NITIC2015-17","pswd":"541e6739d7be06f426d839337902f3359f3a0172","name":"OIL","price":"43.78","amt":"8000","action":"BUY"}
+<Tuesday 25th of August 2015 02:07:47 AM> [InvalidRequest-856f1a]	Sell more stocks than owned (trade.php): Sell:100000 Owns:140000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"BEAN","price":"339.64","amt":"100000","action":"SELL"}
+<Tuesday 25th of August 2015 02:07:51 AM> [InvalidRequest-0e5dda]	Sell more stocks than owned (trade.php): Sell:100000 Owns:140000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"BEAN","price":"339.64","amt":"100000","action":"SELL"}
+<Tuesday 25th of August 2015 02:11:49 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 02:11:54 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 02:13:13 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 02:13:43 AM> [InvalidRequest-6cd671]	Buy more stocks than affordable (trade.php): Purchased:347000 Balance:347000
+Requests:
+{"user":"NITIC2015-4","pswd":"89a3a2a8ff82fcc8190cbf16f30ee8de5bc010ee","name":"BRIB","price":"69.4","amt":"5000","action":"BUY"}
+<Tuesday 25th of August 2015 02:13:44 AM> [InvalidRequest-7ee991]	Buy more stocks than affordable (trade.php): Purchased:347000 Balance:347000
+Requests:
+{"user":"NITIC2015-4","pswd":"89a3a2a8ff82fcc8190cbf16f30ee8de5bc010ee","name":"BRIB","price":"69.4","amt":"5000","action":"BUY"}
+<Tuesday 25th of August 2015 02:13:44 AM> [InvalidRequest-7ee991]	Buy more stocks than affordable (trade.php): Purchased:347000 Balance:347000
+Requests:
+{"user":"NITIC2015-4","pswd":"89a3a2a8ff82fcc8190cbf16f30ee8de5bc010ee","name":"BRIB","price":"69.4","amt":"5000","action":"BUY"}
+<Tuesday 25th of August 2015 02:37:26 AM> [InvalidRequest-e444f9]	Sell more stocks than owned (trade.php): Sell:10000 Owns:10000
+Requests:
+{"user":"NITIC2015-11","pswd":"b10ee7949b8e91fe76f36e41908227093d8a2687","name":"SOLE","price":"18.98","amt":"10000","action":"SELL"}
+<Tuesday 25th of August 2015 02:41:15 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 02:41:36 AM> [InvalidRequest-dc0374]	Sell more stocks than owned (trade.php): Sell:2333 Owns:2333
+Requests:
+{"user":"nitic2015-17","pswd":"541e6739d7be06f426d839337902f3359f3a0172","name":"BRIB","price":"77.77","amt":"2333","action":"SELL"}
+<Tuesday 25th of August 2015 02:46:29 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 02:58:42 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:11:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:11:19 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:20:10 AM> [InvalidRequest-607fd5]	Stock price inconsistent (trade.php): Reqested:344.1 Acceptable:343.72/343.72
+Requests:
+{"user":"NITIC2015-24","pswd":"3e99d6c6140f9ea4e18860fef1623248c7602872","name":"BEAN","price":"344.1","amt":"7000000","action":"SELL"}
+<Tuesday 25th of August 2015 03:20:37 AM> [InvalidRequest-5669fc]	Stock price inconsistent (trade.php): Reqested:344.1 Acceptable:343.72/343.72
+Requests:
+{"user":"NITIC2015-24","pswd":"3e99d6c6140f9ea4e18860fef1623248c7602872","name":"BEAN","price":"344.1","amt":"1000000","action":"SELL"}
+<Tuesday 25th of August 2015 03:21:13 AM> [InvalidRequest-63cb26]	Sell more stocks than owned (trade.php): Sell:100000 Owns:100000
+Requests:
+{"user":"NITIC2015-21","pswd":"4e29a1982ba032e9a6d7392a03935a8a7b0c7dec","name":"STAH","price":"9.3","amt":"100000","action":"SELL"}
+<Tuesday 25th of August 2015 03:21:23 AM> [InvalidRequest-df8f84]	Sell more stocks than owned (trade.php): Sell:100000 Owns:100000
+Requests:
+{"user":"NITIC2015-21","pswd":"4e29a1982ba032e9a6d7392a03935a8a7b0c7dec","name":"STAH","price":"9.3","amt":"100000","action":"SELL"}
+<Tuesday 25th of August 2015 03:21:34 AM> [InvalidRequest-907bca]	Buy more stocks than affordable (trade.php): Purchased:208000 Balance:208000
+Requests:
+{"user":"nitic2015-29","pswd":"3480acb507fb92b8af6194a6168cce165d9fe37d","name":"SOLE","price":"20.8","amt":"10000","action":"BUY"}
+<Tuesday 25th of August 2015 03:21:38 AM> [InvalidRequest-2610a7]	Buy more stocks than affordable (trade.php): Purchased:208000 Balance:208000
+Requests:
+{"user":"nitic2015-29","pswd":"3480acb507fb92b8af6194a6168cce165d9fe37d","name":"SOLE","price":"20.8","amt":"10000","action":"BUY"}
+<Tuesday 25th of August 2015 03:25:34 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:28:14 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:28:27 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:28:43 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:30:30 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:31:31 AM> [InvalidRequest-aef5da]	Sell more stocks than owned (trade.php): Sell:-300000 Owns:-340000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"IRON","price":"199.03","amt":"300000","action":"BUY"}
+<Tuesday 25th of August 2015 03:31:34 AM> [InvalidRequest-035579]	Sell more stocks than owned (trade.php): Sell:-300000 Owns:-340000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"IRON","price":"199.03","amt":"300000","action":"BUY"}
+<Tuesday 25th of August 2015 03:31:39 AM> [InvalidRequest-f802ec]	Sell more stocks than owned (trade.php): Sell:-200000 Owns:-240000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"IRON","price":"199.03","amt":"200000","action":"BUY"}
+<Tuesday 25th of August 2015 03:31:42 AM> [InvalidRequest-721a46]	Sell more stocks than owned (trade.php): Sell:-100000 Owns:-140000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"IRON","price":"199.03","amt":"100000","action":"BUY"}
+<Tuesday 25th of August 2015 03:31:48 AM> [InvalidRequest-422190]	Sell more stocks than owned (trade.php): Sell:-50000 Owns:-90000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"IRON","price":"199.03","amt":"50000","action":"BUY"}
+<Tuesday 25th of August 2015 03:34:56 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 03:35:35 AM> [InvalidRequest-34b314]	Buy more stocks than affordable (trade.php): Purchased: Balance:0
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"BEAN","price":"347.58","amt":"0400000","action":"BUY"}
+<Tuesday 25th of August 2015 03:35:36 AM> [InvalidRequest-8fd9a8]	Buy more stocks than affordable (trade.php): Purchased: Balance:0
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"BEAN","price":"347.58","amt":"0400000","action":"BUY"}
+<Tuesday 25th of August 2015 03:35:38 AM> [InvalidRequest-9eb02d]	Buy more stocks than affordable (trade.php): Purchased: Balance:0
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"BEAN","price":"347.58","amt":"0400000","action":"BUY"}
+<Tuesday 25th of August 2015 04:43:23 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 04:43:24 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:16:50 AM> MySQL did not return. (userctrl.php)	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+<Tuesday 25th of August 2015 05:16:52 AM> MySQL did not return. (userctrl.php)	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+<Tuesday 25th of August 2015 05:22:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:22:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:22:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:22:36 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:22:36 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:34:53 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 05:57:02 AM> [InvalidRequest-b3f6a8]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674306361E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"9999999999999999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:06 AM> [InvalidRequest-92c2bc]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674306361E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"9999999999999999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:10 AM> [InvalidRequest-762cf0]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674306361E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"9999999999999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:20 AM> [InvalidRequest-01eae8]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674306361E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"99999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:23 AM> [InvalidRequest-4c528a]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674306361E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"9999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:28 AM> [InvalidRequest-91ef25]	Sell more stocks than owned (trade.php): Sell:-999999999999999999 Owns:-1.0223371026755E+19
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"999999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:57:32 AM> [InvalidRequest-f4234b]	Sell more stocks than owned (trade.php): Sell:9200000000000000000 Owns:-23372036853751808
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9200000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 05:57:37 AM> [InvalidRequest-618dfc]	Sell more stocks than owned (trade.php): Sell:-999999999999999 Owns:-9.2243710267548E+18
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"999999999999999","action":"BUY"}
+<Tuesday 25th of August 2015 05:58:21 AM> [InvalidRequest-415e2e]	Sell more stocks than owned (trade.php): Sell:-1 Owns:-9223371026754752513
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"1","action":"BUY"}
+<Tuesday 25th of August 2015 06:04:26 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:06:23 AM> [InvalidRequest-3ed10d]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:06:56 AM> [InvalidRequest-05ea00]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:06:58 AM> [InvalidRequest-ac800f]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:08:47 AM> [InvalidRequest-32f4b7]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:10:16 AM> [InvalidRequest-34408d]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:10:23 AM> [InvalidRequest-deeb9f]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:10:30 AM> [InvalidRequest-705aaa]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:13:54 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:14:02 AM> [InvalidRequest-af7277]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:14:04 AM> [InvalidRequest-607991]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1023999
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9223372036855800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:14:13 AM> [InvalidRequest-5db58a]	Sell more stocks than owned (trade.php): Sell:9 Owns:-9223372036853751799
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RAIX","price":"0","amt":"9","action":"SELL"}
+<Tuesday 25th of August 2015 06:18:08 AM> [InvalidRequest-0a6f5c]	Sell more stocks than owned (trade.php): Sell:10000000 Owns:10001000
+Requests:
+{"user":"NITIC2015-32","pswd":"d645ad8a4c76ceb01d59c2d67e2dc03219e2d6f1","name":"RAIX","price":"0","amt":"10000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:18:12 AM> [InvalidRequest-d8134d]	Sell more stocks than owned (trade.php): Sell:1000000 Owns:1000000
+Requests:
+{"user":"NITIC2015-32","pswd":"d645ad8a4c76ceb01d59c2d67e2dc03219e2d6f1","name":"RAIX","price":"0","amt":"1000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:19:13 AM> [InvalidRequest-a94e2a]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674307371E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100000000000000000000000000000000000000000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:19:18 AM> [InvalidRequest-545c2d]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674307371E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100000000000000000000000000000000000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:19:22 AM> [InvalidRequest-f5ba9b]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674307371E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100000000000000000000000000000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:19:38 AM> [InvalidRequest-224d20]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674307371E+19
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"10000000000000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:20:12 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:20:43 AM> [InvalidRequest-4924ca]	Sell more stocks than owned (trade.php): Sell:100000000000 Owns:-9223370936854751232
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:20:48 AM> [InvalidRequest-abe2f8]	Sell more stocks than owned (trade.php): Sell:100000000 Owns:-9223371036754751232
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:20:51 AM> [InvalidRequest-683be6]	Sell more stocks than owned (trade.php): Sell:100 Owns:-9223371036854751132
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"100","action":"SELL"}
+<Tuesday 25th of August 2015 06:20:54 AM> [InvalidRequest-258202]	Sell more stocks than owned (trade.php): Sell:10 Owns:-9223371036854751222
+Requests:
+{"user":"NITIC2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"10","action":"SELL"}
+<Tuesday 25th of August 2015 06:26:31 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:26:33 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:26:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:26:54 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:27:38 AM> [InvalidRequest-aee20c]	Sell more stocks than owned (trade.php): Sell:-9223372036854775807 Owns:-1.844674307371E+19
+Requests:
+{"user":"nitic2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:27:48 AM> [InvalidRequest-d9ca0b]	Sell more stocks than owned (trade.php): Sell:-700000000000 Owns:-9223371736854751232
+Requests:
+{"user":"nitic2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"700000000000","action":"BUY"}
+<Tuesday 25th of August 2015 06:27:52 AM> [InvalidRequest-0cec8b]	Sell more stocks than owned (trade.php): Sell:-70000 Owns:-9223371036854821232
+Requests:
+{"user":"nitic2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"70000","action":"BUY"}
+<Tuesday 25th of August 2015 06:28:01 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:28:13 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:28:22 AM> [InvalidRequest-cef4c6]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:1010100023295
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"9223373046954800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:28:27 AM> [InvalidRequest-a794e1]	Sell more stocks than owned (trade.php): Sell:922337304695480000 Owns:-8301033722059272512
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"922337304695480000","action":"SELL"}
+<Tuesday 25th of August 2015 06:28:36 AM> [InvalidRequest-7c4fd9]	Sell more stocks than owned (trade.php): Sell:100000 Owns:-9223371026754652512
+Requests:
+{"user":"NITIC2015-25","pswd":"2aacc8dba861be269d5189e7ffae8f2554a717bb","name":"RAIX","price":"0","amt":"100000","action":"SELL"}
+<Tuesday 25th of August 2015 06:30:48 AM> [InvalidRequest-12c3c3]	Sell more stocks than owned (trade.php): Sell:1 Owns:-9223372036854751231
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"1","action":"SELL"}
+<Tuesday 25th of August 2015 06:31:02 AM> [InvalidRequest-6137b0]	Sell more stocks than owned (trade.php): Sell:1 Owns:-9223372036854751231
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"1","action":"SELL"}
+<Tuesday 25th of August 2015 06:31:36 AM> [InvalidRequest-894b22]	Sell more stocks than owned (trade.php): Sell:999999999999999999 Owns:-8223372036854751233
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"999999999999999999","action":"SELL"}
+<Tuesday 25th of August 2015 06:31:44 AM> [InvalidRequest-ac4fcf]	Buy more stocks than affordable (trade.php): Purchased:441050 Balance:441050
+Requests:
+{"user":"nitic2015-33","pswd":"32d027e169cc43f615194f2e5f91fdcf517c2448","name":"SANF","price":"88.21","amt":"5000","action":"BUY"}
+<Tuesday 25th of August 2015 06:31:59 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:32:08 AM> [InvalidRequest-69e588]	Sell more stocks than owned (trade.php): Sell:3000 Owns:3000
+Requests:
+{"user":"nitic2015-27","pswd":"897525a603a2011402ee1a4a5bb8d47d7b8519d7","name":"BRIB","price":"74.15","amt":"3000","action":"SELL"}
+<Tuesday 25th of August 2015 06:32:28 AM> [InvalidRequest-cf4382]	Sell more stocks than owned (trade.php): Sell:1 Owns:-9223372036854751231
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"1","action":"SELL"}
+<Tuesday 25th of August 2015 06:32:37 AM> [InvalidRequest-5a8049]	Stock price inconsistent (trade.php): Reqested:2069.29 Acceptable:2063.58/2065.67
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"RUBBER","price":"2069.29","amt":"207900","action":"SELL"}
+<Tuesday 25th of August 2015 06:33:07 AM> [InvalidRequest-3626e7]	Stock price inconsistent (trade.php): Reqested:2069.29 Acceptable:2063.58/2065.67
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"RUBBER","price":"2069.29","amt":"207900","action":"SELL"}
+<Tuesday 25th of August 2015 06:35:00 AM> [InvalidRequest-571581]	Sell more stocks than owned (trade.php): Sell:-55555 Owns:-9223371036854806787
+Requests:
+{"user":"nitic2015-31","pswd":"fc0eacb88ea9ad15030ace5952ea8679d7a5fc4b","name":"RAIX","price":"0","amt":"55555","action":"BUY"}
+<Tuesday 25th of August 2015 06:36:46 AM> [InvalidRequest-4ad791]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:24575
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"9223372036854800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:36:50 AM> [InvalidRequest-10e772]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:24575
+Requests:
+{"user":"NITIC2015-15","pswd":"e033c12ddbfe6668ae224e6947af415e802c3df9","name":"RAIX","price":"0","amt":"9223372036854800000","action":"SELL"}
+<Tuesday 25th of August 2015 06:39:43 AM> [InvalidRequest-2de5c3]	Sell more stocks than owned (trade.php): Sell:100000000000000000 Owns:199999999999999999
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"RAIX","price":"0","amt":"100000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:39:51 AM> [InvalidRequest-400a2c]	Sell more stocks than owned (trade.php): Sell:100000000000000000 Owns:199999999999999999
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"RAIX","price":"0","amt":"100000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:39:51 AM> [InvalidRequest-400a2c]	Sell more stocks than owned (trade.php): Sell:1000 Owns:1000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"BRIB","price":"76.15","amt":"1000","action":"SELL"}
+<Tuesday 25th of August 2015 06:42:02 AM> [InvalidRequest-0f1883]	Sell more stocks than owned (trade.php): Sell:100000000000000000 Owns:199999999999999999
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"RAIX","price":"0","amt":"100000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:42:20 AM> [InvalidRequest-c11027]	Sell more stocks than owned (trade.php): Sell:90000000000000000 Owns:179999999999999999
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"RAIX","price":"0","amt":"90000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:43:01 AM> [InvalidRequest-ac3ff5]	Sell more stocks than owned (trade.php): Sell:5000000000000000 Owns:5999999999999999
+Requests:
+{"user":"NITIC2015-35","pswd":"4efb146555f26ba43b46c4ecb9f0e8ef1e6fb3a6","name":"RAIX","price":"0","amt":"5000000000000000","action":"SELL"}
+<Tuesday 25th of August 2015 06:48:30 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:51:37 AM> [InvalidRequest-a48a87]	Buy more stocks than affordable (trade.php): Purchased:663400 Balance:663400
+Requests:
+{"user":"nitic2015-14","pswd":"d5bc99430cde39b54e22072d094a295d91f33b79","name":"SOLE","price":"33.17","amt":"20000","action":"BUY"}
+<Tuesday 25th of August 2015 06:54:43 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:55:03 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:55:12 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:49 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:49 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:49 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:49 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:50 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:50 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 06:57:50 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:01:18 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:02:38 AM> [InvalidRequest-68084d]	Buy more stocks than affordable (trade.php): Purchased:2956800 Balance:2956800
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"SOLE","price":"26.88","amt":"110000","action":"BUY"}
+<Tuesday 25th of August 2015 07:03:04 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:03:57 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:05:21 AM> [InvalidRequest-c6a1aa]	Buy more stocks than affordable (trade.php): Purchased:610000 Balance:610000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"DAVE","price":"61","amt":"10000","action":"BUY"}
+<Tuesday 25th of August 2015 07:07:04 AM> [InvalidRequest-3c2aed]	Buy more stocks than affordable (trade.php): Purchased:150500 Balance:150500
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"BRIB","price":"75.25","amt":"2000","action":"BUY"}
+<Tuesday 25th of August 2015 07:08:18 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:08:42 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:08:59 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:09:12 AM> [InvalidRequest-566860]	Sell more stocks than owned (trade.php): Sell:84126 Owns:84126
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"DAVE","price":"64.45","amt":"84126","action":"SELL"}
+<Tuesday 25th of August 2015 07:09:27 AM> [InvalidRequest-6e2113]	Sell more stocks than owned (trade.php): Sell:84126 Owns:84126
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"DAVE","price":"64.45","amt":"84126","action":"SELL"}
+<Tuesday 25th of August 2015 07:10:33 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:11:09 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:11:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:11:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:11:11 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:12:21 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:12:58 AM> [InvalidRequest-2663c5]	Buy more stocks than affordable (trade.php): Purchased:1289000 Balance:1289000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"DAVE","price":"64.45","amt":"20000","action":"BUY"}
+<Tuesday 25th of August 2015 07:13:35 AM> [InvalidRequest-8d0156]	Buy more stocks than affordable (trade.php): Purchased:5421920.7 Balance:5421920.7
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"DAVE","price":"64.45","amt":"84126","action":"BUY"}
+<Tuesday 25th of August 2015 07:13:47 AM> [InvalidRequest-8c64be]	Buy more stocks than affordable (trade.php): Purchased:5413800 Balance:5413800
+Requests:
+{"user":"nitic2015-13","pswd":"ad01b6203cdbbe93096f3ea69860b7ba6e3b2943","name":"DAVE","price":"64.45","amt":"84000","action":"BUY"}
+<Tuesday 25th of August 2015 07:14:36 AM> [InvalidRequest-be18b3]	Buy more stocks than affordable (trade.php): Purchased:1099200 Balance:1099200
+Requests:
+{"user":"NITIC2015-1","pswd":"73335c221018b95c013ff3f074bd9e8550e8d48e","name":"SOLE","price":"27.48","amt":"40000","action":"BUY"}
+<Tuesday 25th of August 2015 07:15:31 AM> [InvalidRequest-27f47f]	Sell more stocks than owned (trade.php): Sell:30000 Owns:30000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"DAVE","price":"65.34","amt":"30000","action":"SELL"}
+<Tuesday 25th of August 2015 07:15:33 AM> [InvalidRequest-df5f57]	Sell more stocks than owned (trade.php): Sell:30000 Owns:30000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"DAVE","price":"65.34","amt":"30000","action":"SELL"}
+<Tuesday 25th of August 2015 07:16:07 AM> [InvalidRequest-fb5c58]	Sell more stocks than owned (trade.php): Sell:10000 Owns:10000
+Requests:
+{"user":"nitic2015-33","pswd":"32d027e169cc43f615194f2e5f91fdcf517c2448","name":"BRIB","price":"79.81","amt":"10000","action":"SELL"}
+<Tuesday 25th of August 2015 07:16:34 AM> [InvalidRequest-c730c1]	Buy more stocks than affordable (trade.php): Purchased:2192400 Balance:2192400
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"SANF","price":"73.08","amt":"30000","action":"BUY"}
+<Tuesday 25th of August 2015 07:16:38 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:17:00 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:17:08 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:17:09 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:17:10 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:17:28 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:18:03 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:26:03 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:26:55 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:27:17 AM> [InvalidRequest-9faf1d]	Sell more stocks than owned (trade.php): Sell:70000 Owns:133000
+Requests:
+{"user":"NITIC2015-5","pswd":"cf189de1b85bd39ea187ace0b015bd6b46bd8920","name":"RUBBER","price":"2061.78","amt":"70000","action":"SELL"}
+<Tuesday 25th of August 2015 07:31:36 AM> [InvalidRequest-cb15d9]	Sell more stocks than owned (trade.php): Sell:9000 Owns:9000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"STAH","price":"6.77","amt":"9000","action":"SELL"}
+<Tuesday 25th of August 2015 07:31:52 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:32:13 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:32:58 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:39:46 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:39:55 AM> [InvalidRequest-131a9e]	Sell more stocks than owned (trade.php): Sell:53000 Owns:53000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"DAVE","price":"69.78","amt":"53000","action":"SELL"}
+<Tuesday 25th of August 2015 07:40:33 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:40:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:42:02 AM> [InvalidRequest-390028]	Sell more stocks than owned (trade.php): Sell:20000 Owns:25000
+Requests:
+{"user":"NITIC2015-7","pswd":"833c011880690768ab965fd9a27efdd02abd6010","name":"RUBBER","price":"2063.58","amt":"20000","action":"SELL"}
+<Tuesday 25th of August 2015 07:42:39 AM> [InvalidRequest-5ff675]	Sell more stocks than owned (trade.php): Sell:24000 Owns:24000
+Requests:
+{"user":"nitic2015-33","pswd":"32d027e169cc43f615194f2e5f91fdcf517c2448","name":"DAVE","price":"69.78","amt":"24000","action":"SELL"}
+<Tuesday 25th of August 2015 07:45:16 AM> [InvalidRequest-b85c83]	Sell more stocks than owned (trade.php): Sell:15000 Owns:15000
+Requests:
+{"user":"NITIC2015-7","pswd":"833c011880690768ab965fd9a27efdd02abd6010","name":"BRIB","price":"73.77","amt":"15000","action":"SELL"}
+<Tuesday 25th of August 2015 07:45:54 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:48:01 AM> [InvalidRequest-8459e0]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:20023295
+Requests:
+{"user":"test","pswd":"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3","name":"RAIX","price":"0","amt":"9223372036874800000","action":"SELL"}
+<Tuesday 25th of August 2015 07:48:06 AM> [InvalidRequest-2e9aaf]	Sell more stocks than owned (trade.php): Sell:922337203687480000 Owns:-8301034833147272512
+Requests:
+{"user":"test","pswd":"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3","name":"RAIX","price":"0","amt":"922337203687480000","action":"SELL"}
+<Tuesday 25th of August 2015 07:48:10 AM> [InvalidRequest-a0e8d1]	Sell more stocks than owned (trade.php): Sell:9223372 Owns:-9223372036825529140
+Requests:
+{"user":"test","pswd":"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3","name":"RAIX","price":"0","amt":"9223372","action":"SELL"}
+<Tuesday 25th of August 2015 07:48:18 AM> [InvalidRequest-a3964a]	Sell more stocks than owned (trade.php): Sell:-12341324234234 Owns:-9.223384378159E+18
+Requests:
+{"user":"test","pswd":"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3","name":"RAIX","price":"0","amt":"12341324234234","action":"BUY"}
+<Tuesday 25th of August 2015 07:48:33 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:49:40 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:52:46 AM> [InvalidRequest-1406d1]	Sell more stocks than owned (trade.php): Sell:9223372036854775807 Owns:20023295
+Requests:
+{"user":"test","pswd":"c3d40dadfe86bde7d2d0200f9716a5902d0700c5","name":"RAIX","price":"0","amt":"9223372036874800000","action":"SELL"}
+<Tuesday 25th of August 2015 07:54:02 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:54:35 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:55:39 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:55:59 AM> [InvalidRequest-b19c62]	Sell more stocks than owned (trade.php): Sell:10000 Owns:10000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"SANF","price":"64.93","amt":"10000","action":"SELL"}
+<Tuesday 25th of August 2015 07:59:07 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:59:13 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 07:59:44 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:01:52 AM> [InvalidRequest-6bb75f]	Sell more stocks than owned (trade.php): Sell:500000 Owns:500000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"STAH","price":"5.48","amt":"500000","action":"SELL"}
+<Tuesday 25th of August 2015 08:03:21 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:03:22 AM> [InvalidRequest-223c0e]	Sell more stocks than owned (trade.php): Sell:4500 Owns:5000
+Requests:
+{"user":"NITIC2015-23","pswd":"7ee7bdafe0f1918018b3667260f7e2e9bec8809a","name":"STAH","price":"5.48","amt":"4500","action":"SELL"}
+<Tuesday 25th of August 2015 08:03:37 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:13:38 AM> [InvalidRequest-67d910]	Sell more stocks than owned (trade.php): Sell:5000 Owns:5000
+Requests:
+{"user":"NITIC2015-6","pswd":"99c1c193b823aa6c38a56cb0dd8bd8bd9c5fc91a","name":"SANF","price":"68.92","amt":"5000","action":"SELL"}
+<Tuesday 25th of August 2015 08:18:37 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:21:37 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:21:37 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 08:30:58 AM> [InvalidRequest-6daa35]	Sell more stocks than owned (trade.php): Sell:4000 Owns:5000
+Requests:
+{"user":"NITIC2015-17","pswd":"541e6739d7be06f426d839337902f3359f3a0172","name":"SANF","price":"73.09","amt":"4000","action":"SELL"}
+<Tuesday 25th of August 2015 12:01:15 PM> MySQL did not return. (userctrl.php)	
+<Tuesday 25th of August 2015 12:01:21 PM> MySQL did not return. (userctrl.php)	
+<Wednesday 26th of August 2015 06:05:43 AM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:26:45 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:26:47 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:39:14 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:39:14 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:39:39 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:39:40 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:39:51 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:40:13 PM> MySQL did not return. (userctrl.php)	
+<Saturday 21st of November 2015 01:40:13 PM> MySQL did not return. (userctrl.php)	
+<Saturday 28th of November 2015 09:36:23 AM> MySQL did not return. (userctrl.php)	
+<Saturday 28th of November 2015 09:36:27 AM> MySQL did not return. (userctrl.php)	
+<Saturday 28th of November 2015 09:37:10 AM> MySQL did not return. (userctrl.php)	
+<Saturday 28th of November 2015 09:37:36 AM> MySQL did not return. (userctrl.php)	
+<Saturday 6th of August 2016 09:20:51 AM> MySQL did not return. (userctrl.php)	
+<Saturday 6th of August 2016 09:20:51 AM> MySQL did not return. (userctrl.php)	
+<Tuesday 9th of August 2016 07:57:28 PM> MySQL did not return. (userctrl.php)	
+<Tuesday 9th of August 2016 08:19:20 PM> MySQL did not return. (userctrl.php)	
+<Tuesday 9th of August 2016 08:19:27 PM> MySQL did not return. (userctrl.php)	
+<Tuesday 9th of August 2016 08:20:28 PM> MySQL did not return. (userctrl.php)	
