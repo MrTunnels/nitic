@@ -127,30 +127,28 @@ function logout() {
 //Currency 
 function updatecurrency(){
 	document.querySelector("#Currency_list").innerHTML="当前汇率<br />";
-	var MoneySource = ["EUR","USD"]; 
-	var MoneyTarget = ["CNY","GBP"];
-	var url="";	
-	if(document.querySelector("#Currency_list").innerHTML==""){
-    document.querySelector("#Currency_list").innerHTML="正在获取汇率"
-	}
-	MoneySource.forEach(function(SourceMoney){  
-		MoneyTarget.forEach(function(TargetMoney){  
-			if(SourceMoney!=TargetMoney)
+	$.ajax({
+		type:"POST",
+		url:"getCurrency.php",
+		data:{
+			user: tmpl.user,
+			pswd: tmpl.pswd},
+		dataType: "json",
+		error: function() {
+			document.querySelector("#Currency_list").innerHTML="服务器发呆中。。。";
+		},
+		success: function(data) {
+			if(data.status=="success")
 			{
-				url="currency.php?source="+SourceMoney+"&target="+TargetMoney;
-				$.get(url,function(data)
-				{
-					data=parseFloat(data);
-					data=data.toFixed(10);
-					document.querySelector("#temp_list").innerHTML=document.querySelector("#temp_list").innerHTML+"<code>1</code> "+SourceMoney+"兑换 <code>"+data  +"</code> "+TargetMoney+"<br />";
-				}
-				);
+				//alert(data.text_1);
+				document.querySelector("#Currency_list").innerHTML=data.text_1;
 			}
-			
-		});
-	}); 
-	document.querySelector("#Currency_list").innerHTML=document.querySelector("#temp_list").innerHTML;
-	document.querySelector("#temp_list").innerHTML="";
+			else
+			{
+				document.querySelector("#Currency_list").innerHTML=data.reason;
+			}
+		}
+	});
 }
 //Available Money
 function updatemoneytype(){
@@ -169,11 +167,12 @@ function updatemoneytype(){
 		success: function(data) {
 			if(data.status=="success")
 			{
-				document.querySelector("#Money_list").innerHTML==data.text_1;
+				//alert(data.text_1);
+				document.querySelector("#Money_list").innerHTML=data.text_1;
 			}
 			else
 			{
-				document.querySelector("#Money_list").innerHTML==data.reason;
+				document.querySelector("#Money_list").innerHTML=data.reason;
 			}
 		}
 	});
@@ -187,7 +186,7 @@ function decimal(num,v)
     
 //info
 function updateinfo(){
-	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang (Frame&Stock&Future)"+"<br />"+"rickliu2000 & Hu Qingyang(Currency)"+"<br />"+"Latest commit : 20160807"+"<br />"+"Source @ https://github.com/ilufang/NITIC & https://github.com/OSCStudio";
+	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang (Frame&Stock&Future)"+"<br />"+"rickliu2000 & Hu Qingyang(Currency)"+"<br />"+"Latest commit : 20160810<br />Version : β2.0.0"+"<br />"+"Source @ <a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> & <a href='https://github.com/OSCStudio/nitic'>https://github.com/OSCStudio/nitic</a>";
 }
 // Stock
 var stockinfo;

@@ -82,6 +82,31 @@ function createCurrency() {
 		}
 	});
 }
+
+function updateCurrency() {
+	$.ajax({
+		url: "admin/updateCurrencyList.php",
+		method: "POST",
+		data: {
+			user: tmpl.user,
+			pswd: tmpl.pswd
+		},
+		dataType: "json",
+		failure: function() {
+			tmpl.alert = "Cannot connect to the server.";
+			document.querySelector("#window_alert").open();
+		},
+		success: function(data) {
+			if (data.status=="success") {
+				tmpl.toast = "成功更新汇率互换列表！";
+				document.querySelector("#toast").show();
+			} else {
+				tmpl.alert = "Rejected: "+data.reason;
+				document.querySelector("#window_alert").open();
+			}
+		}
+	});
+}
 function createUser() {
 	console.log(1);
 	$.ajax({
