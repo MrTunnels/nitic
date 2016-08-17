@@ -126,7 +126,7 @@ function logout() {
 
 //Currency 
 function updatecurrency(){
-	document.querySelector("#Currency_list").innerHTML="当前汇率<br />";
+	document.querySelector("#Currency_list1").innerHTML="当前汇率<br />";
 	$.ajax({
 		type:"POST",
 		url:"getCurrency.php",
@@ -135,17 +135,17 @@ function updatecurrency(){
 			pswd: tmpl.pswd},
 		dataType: "json",
 		error: function() {
-			document.querySelector("#Currency_list").innerHTML="服务器发呆中。。。";
+			document.querySelector("#Currency_list1").innerHTML="服务器发呆中。。。";
 		},
 		success: function(data) {
 			if(data.status=="success")
 			{
 				//alert(data.text_1);
-				document.querySelector("#Currency_list").innerHTML=data.text_1;
+				document.querySelector("#Currency_list1").innerHTML=data.text_1;
 			}
 			else
 			{
-				document.querySelector("#Currency_list").innerHTML=data.reason;
+				document.querySelector("#Currency_list1").innerHTML=data.reason;
 			}
 		}
 	});
@@ -193,13 +193,20 @@ var stockinfo;
 function updateStock(data) {
 	stockinfo = data;
 	var container_stk = document.querySelector("#stock_list");
-	var container_fut = document.querySelector("#futures_list")
+	var container_fut = document.querySelector("#futures_list");
+	var container_cur = document.querySelector("#Currency_list");
 	container_stk.innerHTML = "";
 	container_fut.innerHTML = "";
+	container_cur.innerHTML = "";
 	for (var i = 0; i < data.length; i++) {
 		var container = container_stk;
-		if (data[i].type=="FUT") {
+		if (data[i].type=="FUT") 
+		{
 			container = container_fut;
+		}
+		else if (data[i].type=="CUR")
+		{
+            container = container_cur;
 		}
 
 		var price = data[i].price;

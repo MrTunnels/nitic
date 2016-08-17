@@ -47,6 +47,7 @@
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>股票</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>期货</paper-item>
                     <paper-item page-name="Currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇</paper-item>
+                     <paper-item page-name="Currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇1</paper-item>
                     <paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>关于本机</paper-item>
 				</core-menu>
 			</core-header-panel>
@@ -106,9 +107,20 @@
 					</div>
 				</section>
 				<!-- End futures -->
+				
+				<!-- Begin Currency -->
+				<section page-name="Currency">
+					<div cross-fade class="main_card">
+						<h1 class="card_title">{{pagetitles[page]}}</h1>
+						<h3>点击期货查看详情/交易</h3>
+						<div id="Currency_list" style="padding:0%;font-family:monospace">
+						</div>
+					</div>
+				</section>
+				<!-- End Currency -->
 
-                <!-- Begin Currency -->
-                <section page-name="Currency">
+                <!-- Begin Currency1 -->
+                <section page-name="Currency1">
                     <div cross-fade class="main_card">
                         <h1 class="card_title">{{pagetitles[page]}}</h1>
 						<h1 class="card_title">{{pagetitles[page]}}</h1>
@@ -117,7 +129,7 @@
 						</div>
 						<h3> 汇率 </h3>
 						<h3>点击查看详情</h3>
-						<div id="Currency_list" style="padding:0%;font-family:monospace">
+						<div id="Currency_list1" style="padding:0%;font-family:monospace">
 						</div>
                         <br /><br /><br /><br /><br /><br />
 						<paper-button raised onclick="tradeCurrency('')" id="btn_Curbuy">
@@ -137,7 +149,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- End Currency -->
+                <!-- End Currency1 -->
  				
                 <!-- Begin info -->
                 <section page-name="info">
@@ -458,6 +470,7 @@
 	tmpl.pagetitles['home']="Home";
 	tmpl.pagetitles['stock']="股票";
 	tmpl.pagetitles['futures']="期货";
+    tmpl.pagetitles['Currency1']="外汇1";
     tmpl.pagetitles['Currency']="外汇";
     tmpl.pagetitles['info']="关于";
 	getUserInfo();

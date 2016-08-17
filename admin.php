@@ -37,6 +37,7 @@
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>Stocks</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>Futures</paper-item>
 					<paper-item page-name="currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency</paper-item>
+					<paper-item page-name="currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency1</paper-item>
 					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
 					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="backup"></core-icon>Periodic Update</paper-item>
 					<paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>About</paper-item>
@@ -140,6 +141,21 @@
 				<section page-name="currency">
 					<div cross-fade class="main_card">
 						<h1 class="card_title">Currency</h1>
+						<h3>Click for details</h3>
+						<div id="Currency_list" style="padding:0%;font-family:monospace">
+						</div>
+						<br />
+						<paper-button onclick="document.querySelector('#window_createstock').open()" style="display:block; width:100%;">
+							<core-icon icon="add"></core-icon>Create Stock/Future
+						</paper-button>
+					</div>
+				</section>
+				<!-- End futures -->
+
+				<!-- Begin Currency1 -->
+				<section page-name="currency1">
+					<div cross-fade class="main_card">
+						<h1 class="card_title">Currency1</h1>
 						<h3 >所有可用币种</h3>
 						<div id="Money_list" style="padding:0%;font-family:monospace">
 						</div>
@@ -148,7 +164,7 @@
 						</paper-button>
 						<h3> 汇率 </h3>
 						<h3>点击查看详情</h3>
-						<div id="Currency_list" style="padding:0%;font-family:monospace">
+						<div id="Currency_list1" style="padding:0%;font-family:monospace">
 						</div>
 						<paper-button onclick="updateCurrency()" style="display:block; width:100%;">
 							<core-icon icon="add"></core-icon>更新汇率列表
@@ -157,7 +173,7 @@
 						
 					</div>
 				</section>
-				<!-- End Currency -->
+				<!-- End Currency1 -->
 				
 				<!-- Begin user -->
 				<section page-name="user">
@@ -385,6 +401,7 @@
 	tmpl.pagetitles['futures']="Futures";
 	tmpl.pagetitles['user']="Users";
 	tmpl.pagetitles['Currency']="Currency";
+	tmpl.pagetitles['Currency1']="Currency1";
 	tmpl.pagetitles['periodicupdate']="Periodic updator";
 	tmpl.pagetitles['info']="About";
 	tmpl.create_lock = false;
