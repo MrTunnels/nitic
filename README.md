@@ -5,9 +5,9 @@ Simulate trading system for NITIC
 **For installing guide, please visit our wiki for futher information.
 
 # Official Websites
-[OSC Studio](https://oscs.io)
+[OSC Studio](http://oscs.io)
 
-[WIKI](https://wiki.oscs.io)
+[WIKI](http://wiki.oscs.io)
 
 # License
 
