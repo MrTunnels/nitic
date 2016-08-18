@@ -34,7 +34,7 @@ if ($con->connect_error) {
 	die(json_encode(array("status"=>"failure","reason"=>"无法连接至数据库.(错误:".$errid.")")));
 }
 
-$sql = "SELECT balance_stock, balance_futures, data FROM Users WHERE name='$user'";
+$sql = "SELECT balance_stock, balance_futures, balance_currency, data FROM Users WHERE name='$user'";
 $result = $con->query($sql);
 if ($result===false||$result->num_rows<=0) {
 	$errid = generateID();
@@ -50,4 +50,4 @@ if (array_key_exists("log", $udata)) {
 	$log = str_replace("Unit", "股", $log);
 	$log = str_replace("LIQUIDATE", "期货平仓", $log);
 }
-die(json_encode(array("status"=>"success","platform"=>file_get_contents("admin/tradestatus"),"balance_stock"=>$row["balance_stock"],"balance_futures"=>$row["balance_futures"],"log"=>$log)));
+die(json_encode(array("status"=>"success","platform"=>file_get_contents("admin/tradestatus"),"balance_stock"=>$row["balance_stock"],"balance_futures"=>$row["balance_futures"],"balance_currency"=>$row["balance_currency"],"log"=>$log)));

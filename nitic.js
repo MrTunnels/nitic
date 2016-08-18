@@ -62,14 +62,14 @@ function updateUserInfo () {
 				document.querySelector("#dashboard").innerHTML+="您的当前账户状态:<Br />\n";
 				document.querySelector("#dashboard").innerHTML+="股票账户余额: <code>$ "+data.balance_stock+"</code><br />\n";
 				document.querySelector("#dashboard").innerHTML+="期货账户余额: <code>$ "+data.balance_futures+"</code><br />\n";
-                document.querySelector("#dashboard").innerHTML+="欧元账户余额: <code>$ "+data.balance_futures+"</code><br />\n";
+                document.querySelector("#dashboard").innerHTML+="外汇账户余额: <code>$ "+data.balance_currency+"</code><br />\n";
 				if (data.platform=="closed") {
 					document.querySelector("#dashboard").innerHTML+="<br /><strong style='color:red'>当前交易平台已关闭</strong><br />\n";
 				};
 
 				tmpl.balance_stock = data.balance_stock;
 				tmpl.balance_futures = data.balance_futures;
-
+				tmpl.balance_currency = data.balance_currency;
 				// Load stock info
 				$.ajax({
 					url: "stockinfo.php",
