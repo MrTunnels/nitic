@@ -333,6 +333,10 @@ function stockDetails(idx) {
 			document.querySelector("#fut_original_price").style.display="inline";
 		}
 		document.querySelector("#fut_leverage").style.display="inline";
+	} else if (stock.type == 'CUR'){
+		tmpl.balance = tmpl.balance_currency;
+		document.querySelector("#fut_leverage").style.display="none";
+		document.querySelector("#fut_original_price").style.display="none";
 	} else {
 		tmpl.balance = tmpl.balance_stock;
 		document.querySelector("#fut_leverage").style.display="none";

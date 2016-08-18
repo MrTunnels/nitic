@@ -37,6 +37,7 @@ if ($result===false||$result->num_rows<=0) {
 $row = $result->fetch_assoc();
 $balance_stk = intval($row['balance_stock']);
 $balance_fut = intval($row['balance_futures']);
+$balance_cur = intval($row['balance_currency']);
 $data = json_decode($row['data'],true);
 
 
@@ -89,6 +90,9 @@ if (strcasecmp($row['type'], "STK")==0) {
 	} else {
 		$balance_fut += abs($amt)*$stk_profile['price0']/$row['leverage']-($amt)*($req_price-$stk_profile['price0']);
 	}
+} else if (strcasecmp($row['type'], "CUR")==0){
+    $total = $amt * $req_price;
+	$balance_cur -= $total;
 } else {
 	$errid = generateID();
 	errLog("[InvalidRequest-$errid]","Unrecognized type (trade.php): $row[type] Request: ".json_encode($_REQUEST));
@@ -96,7 +100,7 @@ if (strcasecmp($row['type'], "STK")==0) {
 }
 
 // Check if affordable
-if ($balance_stk<0 || $balance_fut<0) {
+if ($balance_stk<0 || $balance_fut<0|| $balance_cur<0) {
 	// Reject.
 	$errid = generateID();
 	errLog("[InvalidRequest-".$errid."]","Buy more stocks than affordable (trade.php): Purchased:".$total." Balance:".($balance+$total)."\nRequests:\n".json_encode($_REQUEST));
@@ -169,6 +173,7 @@ trace("[Trade]".$user,$name."\t".$_REQUEST['action']."\t".$amt."\tat price\t".$r
 $sql = "UPDATE Users
 SET balance_stock=$balance_stk,
 balance_futures=$balance_fut,
+balance_currency=$balance_cur,
 data='".json_encode($data)."'
 WHERE name='$user'";
 if (!$con->query($sql)) {
