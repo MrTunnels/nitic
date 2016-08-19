@@ -32,10 +32,10 @@
 			<li><a href="chrome/Chrome.apk">Android (4.0+)</a></li>
 		</ul>
 	</div>
-
+<!--color orange #fff3e0-->
 	<template is="auto-binding">
 		<core-drawer-panel>
-			<core-header-panel drawer style="background-color:#fff3e0;" shadow>
+			<core-header-panel drawer style="background-color:#FAFDFF;" shadow>
 				<core-toolbar class="medium-tall">
 					<core-tooltip label="退出登录" class="fancy">
 						<paper-button style="font-size:0.6em;background:none;color:white" onclick="logout()">{{user}}</paper-button>
@@ -47,11 +47,11 @@
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>股票</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>期货</paper-item>
                     <paper-item page-name="Currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇</paper-item>
-                     <paper-item page-name="Currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇1</paper-item>
+                    <!-- <paper-item page-name="Currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇1</paper-item> -->
                     <paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>关于本机</paper-item>
 				</core-menu>
 			</core-header-panel>
-			<core-header-panel main style="background-color:#fff3e0" shadow>
+			<core-header-panel main style="background-color:#FAFDFF" shadow>
 				<core-toolbar id="responsive-toolbar">
 					<paper-icon-button icon="menu" id="menutoggle" core-drawer-toggle></paper-icon-button>
 					<span id="page_title">{{pagetitles[page]}}</span>

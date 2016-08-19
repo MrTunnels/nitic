@@ -1,11 +1,11 @@
 body{
-	background-color: #fff3e0;
+	background-color: #FFFFFF;
 	-webkit-tap-highlight-color: transparent;
 	tap-hightlight-color: transparent;
 	font-family: "Helvetica", "STHeiti", "SimHei", sans-serif;
 }
 core-toolbar {
-	background-color: #ff9800;
+	background-color: #2196F3;
 	color: white;
 	font-family: sans-serif;
 }
@@ -29,9 +29,9 @@ paper-item {
 }
 
 paper-item.core-selected {
-	color: #f57c00;
+	color: #1976D2;
 	font-weight: bold;
-	background-color: #ffe0b2;
+	background-color: #BBDEFB;
 }
 
 core-icon {
@@ -71,7 +71,7 @@ paper-toast {
 
 paper-button {
 	font-family: sans-serif;
-	background: #ff9800;
+	background: #2196F3;
 	color: white;
 	transition: background 0.3s;
 }
@@ -79,20 +79,20 @@ paper-button {
 paper-button.plain {
 	font-family: sans-serif;
 	background: white;
-	color: #e65100;
+	color: #1976D2;
 }
 
 paper-button.plain:hover {
-	background: #fff3e0;
+	background: #FFFFFF;
 }
 
 
 paper-input /deep/ .focused-underline {
-	background-color: #f57c00;
+	background-color: #2196F3;
 }
 
 paper-input-decorator /deep/ .focused-underline {
-	background-color: #f57c00;
+	background-color: #2196F3;
 }
 
 paper-input, paper-input-decorator {
@@ -187,11 +187,11 @@ core-drawer-panel[narrow] #def_list{
 }
 
 paper-tabs paper-tab::shadow #ink {
-  color: #FF9800;
+  color: #2196F3;
 }
 
 paper-tabs::shadow #selectionBar {
-  background-color: #FF9800;
+  background-color: #2196F3;
 }
 
 p {
@@ -233,10 +233,10 @@ code {
 }
 
 paper-slider::shadow #sliderBar::shadow #activeProgress {
-  background-color: #ff9800;
+  background-color: #2196F3;
 }
 
 paper-slider::shadow #sliderKnobInner {
-  background-color: #ff9800;
+  background-color: #2196F3;
 }
 
