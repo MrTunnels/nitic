@@ -3,3 +3,4 @@
 *.gz
 /tokens.csv
 /consts.php
+.DS_Store

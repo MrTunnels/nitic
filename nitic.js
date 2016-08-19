@@ -186,7 +186,7 @@ function decimal(num,v)
     
 //info
 function updateinfo(){
-	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang (Frame&Stock&Future)"+"<br />"+"rickliu2000 & Hu Qingyang(Currency)"+"<br />"+"Latest commit : 20160810<br />Version : β2.0.0"+"<br />"+"Source @ <a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> & <a href='https://github.com/OSCStudio/nitic'>https://github.com/OSCStudio/nitic</a>";
+	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang (Frame&Stock&Future)"+"<br />"+"rickliu2000 & Hu Qingyang(Currency)"+"<br />"+"Latest commit : <code>"+"20160818"+"</code> <br />"+"Source @ <a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> & <a href='https://github.com/OSCStudio/nitic'>https://github.com/OSCStudio/nitic</a>";
 }
 // Stock
 var stockinfo;
