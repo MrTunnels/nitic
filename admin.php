@@ -37,9 +37,11 @@
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>Stocks</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>Futures</paper-item>
 					<paper-item page-name="currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency</paper-item>
-					<paper-item page-name="currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency1</paper-item>
-					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
+					<paper-item page-name="currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>GTX 1080</paper-item>
+					<paper-item page-name="autoupdate" class="navItem"><core-icon icon="backup"></core-icon>Auto Update</paper-item>
 					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="backup"></core-icon>Periodic Update</paper-item>
+					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
+					<paper-item page-name="user_centre" class="navItem"><core-icon icon="account-box"></core-icon>Profile</paper-item>
 					<paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>About</paper-item>
 				</core-menu>
 			</core-header-panel>

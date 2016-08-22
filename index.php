@@ -48,7 +48,7 @@
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>期货</paper-item>
                     <paper-item page-name="Currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇</paper-item>
                     <!-- <paper-item page-name="Currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>外汇1</paper-item> -->
-                    <paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>关于本机</paper-item>
+                    <paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>关于</paper-item>
 				</core-menu>
 			</core-header-panel>
 			<core-header-panel main style="background-color:#FAFDFF" shadow>
