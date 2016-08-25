@@ -37,11 +37,12 @@
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>Stocks</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>Futures</paper-item>
 					<paper-item page-name="currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency</paper-item>
-					<paper-item page-name="currency1" class="navItem"><core-icon icon="editor:attach-money"></core-icon>GTX 1080</paper-item>
-					<paper-item page-name="autoupdate" class="navItem"><core-icon icon="backup"></core-icon>Auto Update</paper-item>
-					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="backup"></core-icon>Periodic Update</paper-item>
-					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
-					<paper-item page-name="user_centre" class="navItem"><core-icon icon="account-box"></core-icon>Profile</paper-item>
+					<paper-item page-name="currency1" class="navItem"><core-icon icon="extension"></core-icon>GTX 1080</paper-item>
+					<paper-item page-name="user_centre" class="settings"><core-icon icon="account-box"></core-icon>Profile</paper-item>
+					<paper-item page-name="autoupdate" class="trending-up"><core-icon icon="backup"></core-icon>Auto Update</paper-item>
+					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="schedule"></core-icon>Periodic Update</paper-item>
+        <paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
+        <paper-item page-name="settings" class="navItem"><core-icon icon="settings-input-component"></core-icon>Settings</paper-item>
 					<paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>About</paper-item>
 				</core-menu>
 			</core-header-panel>
@@ -142,7 +143,7 @@
 				<!-- Begin Currency -->
 				<section page-name="currency">
 					<div cross-fade class="main_card">
-						<h1 class="card_title">Currency</h1>
+					<span id="page_title">{{pagetitles[page]}}</span>
 						<h3>Click for details</h3>
 						<div id="Currency_list" style="padding:0%;font-family:monospace">
 						</div>
@@ -157,7 +158,7 @@
 				<!-- Begin Currency1 -->
 				<section page-name="currency1">
 					<div cross-fade class="main_card">
-						<h1 class="card_title">Currency1</h1>
+					<span id="page_title">{{pagetitles[page]}}</span>
 						<h3 >所有可用币种</h3>
 						<div id="Money_list" style="padding:0%;font-family:monospace">
 						</div>
@@ -176,11 +177,45 @@
 					</div>
 				</section>
 				<!-- End Currency1 -->
-				
+
+				<!-- Begin Profile -->
+				<section page-name="user_centre">
+					<div cross-fade class="main_card">
+					<span id="page_title">{{pagetitles[page]}}</span>
+						<div>
+							Nothing.Profile.
+						</div>
+					</div>
+				</section>
+       <!-- End Profile -->
+
+      <!-- Begin autoupdate -->
+				<section page-name="autoupdate">
+					<div cross-fade class="main_card">
+						<span id="page_title">{{pagetitles[page]}}</span>
+						<div>
+							Auto Update.
+						</div>
+					</div>
+				</section>
+       <!-- End Profile -->
+
+
+      <!-- Begin autoupdate -->
+				<section page-name="settings">
+					<div cross-fade class="main_card">
+						<span id="page_title">{{pagetitles[page]}}</span>
+						<div>
+							Settings.
+						</div>
+					</div>
+				</section>
+       <!-- End Profile -->
+
 				<!-- Begin user -->
 				<section page-name="user">
 					<div cross-fade class="main_card">
-						<h1 class="card_title">Create User</h1>
+					<span id="page_title">{{pagetitles[page]}}</span>
 						<div>
 							<paper-input floatingLabel label="Username" value="{{create_user}}" disabled="{{create_lock}}"></paper-input><br />
 							<paper-input floatingLabel label="Password" value="{{create_pswd}}" id="pswd_create" onclick="document.querySelector('#pswd_create /deep/ input').type='password'"></paper-input><br />
@@ -402,10 +437,12 @@
 	tmpl.pagetitles['stock']="Stock";
 	tmpl.pagetitles['futures']="Futures";
 	tmpl.pagetitles['user']="Users";
-	tmpl.pagetitles['Currency']="Currency";
-	tmpl.pagetitles['Currency1']="Currency1";
-	tmpl.pagetitles['periodicupdate']="Periodic updator";
+	tmpl.pagetitles['currency']="Currency";
+	tmpl.pagetitles['currency1']="Currency1";
+	tmpl.pagetitles['periodicupdate']="Periodic Updator";
 	tmpl.pagetitles['info']="About";
+  tmpl.pagetitles['autoupdate']='Auto Updator';
+  tmpl.pagetitles['settings']='Settings';
 	tmpl.create_lock = false;
 	tmpl.create_grp = "user";
 	tmpl.create_funds = const_initial_funds;
