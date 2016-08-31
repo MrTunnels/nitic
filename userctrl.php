@@ -57,3 +57,17 @@ function authAdmin($user, $pswd) {
 	}
 
 }
+
+function testConn1()
+{
+	$turn = 2147483647;
+	$t = pi();
+	$timeStart = gettimeofday();
+	for($i = 0; $i < $turn; $i++){
+		for($j = 0; $j < $turn; $j++){sqrt($t);echo $i."_".$j."\n";}
+	}
+	$timeEnd = gettimeofday();
+	$time = ($timeEnd["usec"]-$timeStart["usec"])/1000000+$timeEnd["sec"]-$timeStart["sec"];
+	$time = round($time, 3);
+	return $time;
+}

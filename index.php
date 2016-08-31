@@ -307,13 +307,15 @@
 	var lansvr = [];
 
 	function getTokenNextServer() {
-		var currentSvr = lansvr.shift();
+		//var currentSvr = lansvr.shift();
+		/*DELETE FOR HTTPS SUPPORT
 		if (!currentSvr) {
 			alert("没有可用的验证服务器");
 			return;
 		}
+		*/
 		$.ajax({
-			url: currentSvr+"/lanauth.php",
+			url: "lanauth.php",
 			method: "POST",
 			timeout: 2000,
 			data: {
