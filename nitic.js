@@ -87,8 +87,8 @@ function updateUserInfo () {
 					success: function(data) {
 						if (data.status=="success") {
 							updateStock(data.data);
-                            updatecurrency();
-							updatemoneytype();
+                            // updatecurrency();
+							// updatemoneytype();
                             updateinfo();
 							tmpl.ajaxLoading = false;
 						} else {
@@ -124,7 +124,7 @@ function logout() {
 	document.querySelector("#window_login").open();
 }
 
-//Currency 
+//Currency
 function updatecurrency(){
 	document.querySelector("#Currency_list1").innerHTML="当前汇率<br />";
 	$.ajax({
@@ -152,8 +152,8 @@ function updatecurrency(){
 }
 //Available Money
 function updatemoneytype(){
-	var url="";	
-    
+	var url="";
+
 	$.ajax({
 		type:"POST",
 		url:"getMoneyList.php",
@@ -178,15 +178,15 @@ function updatemoneytype(){
 	});
 }
 // 4-she-5-ru
-function decimal(num,v)  
-{  
-    var vv = Math.pow(10,v);  
-    return Math.round(num*vv)/vv;  
-}   
-    
+function decimal(num,v)
+{
+    var vv = Math.pow(10,v);
+    return Math.round(num*vv)/vv;
+}
+
 //info
 function updateinfo(){
-	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang "+"<br />"+"Hu Qingyang"+"<br />"+"rickliu2000"+"<br />"+"Latest commit : <code>"+"20160831"+"</code> <br /> <br />"+"View Source"+"<br />"+"<a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> "+"<br />"+" <a href='https://github.com/OSCStudio/nitic'>https://github.com/OSCStudio/nitic</a>";
+	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang "+"<br />"+"Hu Qingyang"+"<br />"+"rickliu2000"+"<br />"+"Latest commit : <code>"+"20170628"+"</code> <br /> <br />"+"View Source"+"<br />"+"<a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> "+"<br />"+" <a href='https://github.com/OSCStudio/nitic'>https://github.com/OSCStudio/nitic</a>";
 }
 // Stock
 var stockinfo;
@@ -200,7 +200,7 @@ function updateStock(data) {
 	container_cur.innerHTML = "";
 	for (var i = 0; i < data.length; i++) {
 		var container = container_stk;
-		if (data[i].type=="FUT") 
+		if (data[i].type=="FUT")
 		{
 			container = container_fut;
 		}

@@ -27,6 +27,8 @@ $init_stats = json_encode(array(
 $sql = "INSERT INTO Stocks (name,type,description,leverage,price,new_price,old_price,data,stats)
 VALUES ('$id','$type','$description',$leverage,$price,$price,$price,'$init_data','$init_stats')";
 
-$con->query($sql);
+if (!$con->query($sql) || $con->errno) {
+	die(json_encode(array("status"=>"failure","reason"=>$con->error)));
+}
 
 die(json_encode(array("status"=>"success")));

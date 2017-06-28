@@ -1,13 +1,19 @@
-<!DOCTYPE html>
+<?php
+$str = require('values.php');
+?><!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
-	<title>NITIC</title>
+	<title><?=$str['app_title']?></title>
 	<!-- webcomponents -->
+	<?php if (isset($_REQUEST['wcpath'])): ?>
+	<script type="text/javascript" src="<?=base64_decode($_REQUEST['wcpath'])?>"></script>
+	<?php else: ?>
 	<script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+	<?php endif ?>
 		<!-- jquery (for ajax and cookie) -->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="bower_components/jquery.cookie/jquery.cookie.js"></script>
@@ -21,16 +27,9 @@
 </head>
 <body fullbleed fit layout>
 	<div id="h5_error">
-		<h2>此页面需要Polymer HTML5支持</h2>
-		<b>如果您的浏览器长时间卡在此页面,请考虑更换浏览器,推荐使用最新的Chrome访问</b>
-		<br />
-		<b>下载</b><br />
-		<ul>
-			<li><a href="chrome/ChromeStandaloneSetup.exe">Windows (32bit)</a></li>
-			<li><a href="chrome/ChromeStandaloneSetup64.exe">Windows (64bit)</a></li>
-			<li><a href="chrome/Chrome.dmg">MacOS (10.6+)</a></li>
-			<li><a href="chrome/Chrome.apk">Android (4.0+)</a></li>
-		</ul>
+		<h2>Loading...</h2>
+		<p>此页面需要Polymer HTML5支持。</p>
+		<p>如果您的浏览器长时间卡在此页面，请考虑更换浏览器或更换设备</p>
 	</div>
 <!--color orange #fff3e0-->
 	<template is="auto-binding">
@@ -40,7 +39,7 @@
 					<core-tooltip label="退出登录" class="fancy">
 						<paper-button style="font-size:0.6em;background:none;color:white" onclick="logout()">{{user}}</paper-button>
 					</core-tooltip>
-					<div class="bottom">NITIC</div>
+					<div class="bottom"><?=$str['app_title']?></div>
 				</core-toolbar>
 				<core-menu selected="{{page}}" style="margin:0px" valueattr="page-name">
 					<paper-item page-name="home" class="navItem"><core-icon icon="dashboard"></core-icon>Home</paper-item>
@@ -107,12 +106,12 @@
 					</div>
 				</section>
 				<!-- End futures -->
-				
+
 				<!-- Begin Currency -->
 				<section page-name="Currency">
 					<div cross-fade class="main_card">
 						<h1 class="card_title">{{pagetitles[page]}}</h1>
-						<h3>点击期货查看详情/交易</h3>
+						<h3>点击外汇查看详情/交易</h3>
 						<div id="Currency_list" style="padding:0%;font-family:monospace">
 						</div>
 					</div>
@@ -150,7 +149,7 @@
                     </div>
                 </section>
                 <!-- End Currency1 -->
- 				
+
                 <!-- Begin info -->
                 <section page-name="info">
                     <div cross-fade class="main_card">
@@ -168,7 +167,7 @@
                 <!-- Begin Temp -->
                 <section page-name="temp">
                     <div cross-fade class="main_card">
-                        
+
                         <br /><br /><br /><br /><br /><br />
 						<div id="temp_list" style="padding:0%;font-family:monospace">
 						</div>
@@ -189,7 +188,7 @@
 
 		<core-overlay backdrop autoclosedisabled id="window_login" style="background:white;padding:3%;">
 			<div>
-				<h3>登录NITIC</h3>
+				<h3>登录<?=$str['app_title']?></h3>
 				<paper-input floatingLabel value="{{user}}" label="用户名"></paper-input><br />
 				<paper-input floatingLabel value="{{pswd}}" label="密码" id="paper-password"></paper-input>
 				<br /><br />
@@ -230,7 +229,7 @@
 		</core-overlay>
 
 
-		<core-overlay backdrop autoclosedisabled id="window_stocktrade" style="background:white;padding:8%;">
+		<core-overlay backdrop autoclosedisabled id="window_stocktrade" style="background:white;padding:2em;">
 			<div>
 				<div layout horizontal>
 					<h3 flex>{{stockaction}}:{{stock_name}}</h3>
@@ -258,7 +257,7 @@
 				</paper-button>
 			</div>
 		</core-overlay>
-        
+
         <core-overlay backdrop autoclosedisabled id="window_curtrade" style="background:white;padding:8%;">
 			<div>
 				<div layout horizontal>

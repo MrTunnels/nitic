@@ -37,14 +37,14 @@ while($row = $result->fetch_assoc()){
 	$name = $row['name'];
 	$amt = 0;
 	$orig_price = 0;
-	/*
+
 	foreach ($userdata['stocks'] as $stock) {
 		if (strcmp($stock['name'],$name)==0) {
 			$amt = $stock['amt'];
 			$orig_price = $stock['price0'];
 		}
 	}
-	*/
+
 	if ($is_admin) {
 		array_push($data, array("name"=>$row['name'],"leverage"=>$row['leverage'],"type"=>$row['type'],"description"=>$row['description'],"price"=>$row['price'],"data"=>json_decode($row['data']),"amt"=>$amt, "price0"=>$orig_price, "stats"=>$row['stats']));
 	} else {

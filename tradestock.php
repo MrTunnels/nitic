@@ -56,10 +56,10 @@ $stock_stats = json_decode($row["stats"],true);
 $price = floatval($row['price']);
 if (abs($price-$req_price)>0.1) {
 	$old_price = floatval($row['old_price']);
-	if (abs($old_price-$req_price)>0.1) {
+	if (true || abs($old_price-$req_price)>0.1) { // Do NOT allow trading with old price
 		$errid = generateID();
 		errLog("[InvalidRequest-".$errid."]","Stock price inconsistent (trade.php): Reqested:".$req_price." Acceptable:".$price."/".$old_price."\nRequests:\n".json_encode($_REQUEST));
-		die(json_encode(array("status"=>"failure","reason"=>"请求价格与数据库不匹配.(错误:".$errid.")")));
+		die(json_encode(array("status"=>"failure","reason"=>"请求价格与数据库不匹配,价格已过期.(错误:".$errid.")")));
 	}
 }
 // Reqested price accepted.
@@ -83,16 +83,13 @@ if (!$stk_profile) {
 if (strcasecmp($row['type'], "STK")==0) {
 	$total = $amt * $req_price;
 	$balance_stk -= $total;
-} else if (strcasecmp($row['type'], "FUT")==0){
+} else if (strcasecmp($row['type'], "FUT")==0 || strcasecmp($row['type'], "CUR")==0){
 	if ($stk_profile['amt']==0) {
 		$balance_fut -= abs($amt)*$req_price/$row['leverage'];
 
 	} else {
 		$balance_fut += abs($amt)*$stk_profile['price0']/$row['leverage']-($amt)*($req_price-$stk_profile['price0']);
 	}
-} else if (strcasecmp($row['type'], "CUR")==0){
-    $total = $amt * $req_price;
-	$balance_cur -= $total;
 } else {
 	$errid = generateID();
 	errLog("[InvalidRequest-$errid]","Unrecognized type (trade.php): $row[type] Request: ".json_encode($_REQUEST));

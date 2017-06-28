@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<?php
+$str = require('values.php');
+?><!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
-	<title>NITIC - Admin</title>
+	<title><?=$str['app_title']?> - Admin</title>
 	<!-- webcomponents -->
 	<script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 		<!-- jquery (for ajax and cookie) -->
@@ -30,19 +32,20 @@
 					<core-tooltip label="退出登录" class="fancy">
 						<paper-button style="font-size:0.6em;background:none;color:white" onclick="logout()">{{user}}</paper-button>
 					</core-tooltip>
-					<div class="bottom">NITIC Administration</div>
+					<div class="bottom"><?=$str['app_title']?> Administration</div>
 				</core-toolbar>
 				<core-menu selected="{{page}}" style="margin:0px" valueattr="page-name">
 					<paper-item page-name="home" class="navItem"><core-icon icon="dashboard"></core-icon>Home</paper-item>
 					<paper-item page-name="stock" class="navItem"><core-icon icon="trending-up"></core-icon>Stocks</paper-item>
 					<paper-item page-name="futures" class="navItem"><core-icon icon="shopping-basket"></core-icon>Futures</paper-item>
 					<paper-item page-name="currency" class="navItem"><core-icon icon="editor:attach-money"></core-icon>Currency</paper-item>
+					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
+					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="schedule"></core-icon>Periodic Update</paper-item>
 					<!--
 					<paper-item page-name="currency1" class="navItem"><core-icon icon="extension"></core-icon>GTX 1080</paper-item>
 					<paper-item page-name="user_centre" class="settings"><core-icon icon="account-box"></core-icon>Profile</paper-item>
 					<paper-item page-name="autoupdate" class="trending-up"><core-icon icon="backup"></core-icon>Auto Update</paper-item>
-					<paper-item page-name="periodicupdate" class="navItem"><core-icon icon="schedule"></core-icon>Periodic Update</paper-item>
-					<paper-item page-name="user" class="navItem"><core-icon icon="account-box"></core-icon>Users</paper-item>
+
 					<paper-item page-name="settings" class="navItem"><core-icon icon="settings-input-component"></core-icon>Settings</paper-item>
 					-->
 					<paper-item page-name="info" class="navItem"><core-icon icon="info"></core-icon>About</paper-item>
@@ -175,7 +178,7 @@
 							<core-icon icon="add"></core-icon>更新汇率列表
 						</paper-button>
 						<br />
-						
+
 					</div>
 				</section>
 				<!-- End Currency1 -->
@@ -233,7 +236,7 @@
 					</div>
 				</section>
 				<!-- End user -->
-				
+
 				<!-- Begin Temp -->
                 <section page-name="temp">
                     <div cross-fade class="main_card">
@@ -242,7 +245,7 @@
                         <div id="temp_list">
                         </div>
                         <br /><br /><br /><br /><br /><br />
-	
+
                         <div>
                             <sub>Function Developed by OSC Studio</sub>
                         </div>
@@ -277,7 +280,7 @@
 					</div>
 				</section>
 				<!-- End periodicupdate -->
-				
+
 				<!-- Begin info -->
                 <section page-name="info">
                     <div cross-fade class="main_card">
@@ -302,7 +305,7 @@
 
 		<core-overlay backdrop autoclosedisabled id="window_login" style="background:white;padding:3%;">
 			<div>
-				<h3>Log in to NITIC Admin</h3>
+				<h3>Log in to <?=$str['app_title']?> Admin</h3>
 				<paper-input floatingLabel value="{{user}}" label="Username"></paper-input><br />
 				<paper-input floatingLabel value="{{pswd}}" onclick="document.querySelector('#paper-password /deep/ input').type='password';" label="Password" id="paper-password"></paper-input>
 				<br /><br />
@@ -330,6 +333,10 @@
 						<core-icon icon="close"></core-icon>Cancel
 					</paper-button>
 					<span flex>&nbsp;</span>
+					<paper-button raised style="background:#f00" onclick="removeQuote()">
+						<core-icon icon="delete"></core-icon>
+						Remove
+					</paper-button>
 					<paper-button raised onclick="commitStockPrice()">
 						<core-icon icon="check"></core-icon>
 						Commit
@@ -348,7 +355,7 @@
 		<core-overlay backdrop autoclosedisabled id="window_createstock" style="background:white;padding:3%;width:60%">
 			<div>
 				<paper-input floatingLabel label="ID" value="{{newstk_name}}"></paper-input><br />
-				<paper-input floatingLabel label="Type (STK/FUT)" value="{{newstk_type}}"></paper-input><br />
+				<paper-input floatingLabel label="Type (STK/FUT/CUR)" value="{{newstk_type}}"></paper-input><br />
 				<paper-input floatingLabel label="Leverage (1 For Stock)" value="{{newstk_leverage}}"></paper-input><br />
 				<paper-input-decorator floatingLabel label="Description (HTML supported)">
 					<paper-autogrow-textarea id="newstk_description">
@@ -368,7 +375,7 @@
 				</div>
 			</div>
 		</core-overlay>
-		
+
 		<core-overlay backdrop autoclosedisabled id="window_createcurrency" style="background:white;padding:3%;width:60%">
 			<div>
 				<paper-input floatingLabel label="MoneyType" value="{{newmoney_name}}"></paper-input><br />
@@ -443,8 +450,8 @@
 	tmpl.pagetitles['currency1']="Currency1";
 	tmpl.pagetitles['periodicupdate']="Periodic Updator";
 	tmpl.pagetitles['info']="About";
-  tmpl.pagetitles['autoupdate']='Auto Updator';
-  tmpl.pagetitles['settings']='Settings';
+	tmpl.pagetitles['autoupdate']='Auto Updator';
+	tmpl.pagetitles['settings']='Settings';
 	tmpl.create_lock = false;
 	tmpl.create_grp = "user";
 	tmpl.create_funds = const_initial_funds;

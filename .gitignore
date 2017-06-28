@@ -2,5 +2,5 @@
 *.log
 *.gz
 /tokens.csv
-/consts.php
 .DS_Store
+bower_components

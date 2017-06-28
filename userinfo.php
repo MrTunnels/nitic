@@ -1,5 +1,6 @@
 <?php
 require_once 'userctrl.php';
+/*
 if(isset($_GET['admin'])){
 	if($_GET['admin']=="true")
 	{
@@ -24,6 +25,7 @@ if(isset($_GET['admin'])){
 		exit();
 	}
 }
+*/
 $user = $_REQUEST['user'];
 
 if (!auth($user,$_REQUEST['pswd'])) {

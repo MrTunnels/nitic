@@ -13,8 +13,8 @@ function createUser($name, $pswd, $perm, $user_initfunds) {
 		return "MySQL connect error (admin/createuser.php): ".$con->connect_error;
 	}
 	$init_data = json_encode(array("stocks"=>array(),"futures"=>array()));
-	$sql = "INSERT INTO Users (name,pswd,type,balance_stock,balance_futures,data)
-	VALUES('$name','$pswd','$perm',$user_initfunds ,$user_initfunds ,'$init_data')";
+	$sql = "INSERT INTO Users (name,pswd,type,balance_stock,balance_futures,balance_currency,data)
+	VALUES('$name','$pswd','$perm',$user_initfunds,$user_initfunds,$user_initfunds,'$init_data')";
 	if (!$con->query($sql)) {
 		return "MySQL Error (admin/createuser.php): ".$con->error;
 	}

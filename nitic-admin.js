@@ -53,6 +53,41 @@ function commitStockPrice() {
 	});
 }
 
+function removeQuote(confirmed) {
+	if (!confirmed) {
+		if (confirm("Do you want to remove "+tmpl.stock_name+"?\nThis action cannot be undone.")) {
+			removeQuote(true);
+		} else {
+			return;
+		}
+	}
+	$.ajax({
+		url: "admin/rmquote.php",
+		method: "POST",
+		data: {
+			user: tmpl.user,
+			pswd: tmpl.pswd,
+			quote: tmpl.stock_name,
+		},
+		dataType: "json",
+		failure: function() {
+			tmpl.alert="Cannot connect to the server";
+			document.querySelector("#window_alert").show();
+		},
+		success: function(data) {
+			if (data.status=="success") {
+				document.querySelector("#window_stockdetail").close();
+				tmpl.toast = "Quote ["+tmpl.stock_name+"] destroyed.";
+				document.querySelector("#toast").show();
+				updateUserInfo();
+			} else {
+				tmpl.alert="Rejected: "+data.reason;
+				document.querySelector("#window_alert").show();
+			}
+		}
+	});
+}
+
 function createCurrency() {
 	$.ajax({
 		url: "admin/createCurrency.php",
