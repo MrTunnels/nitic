@@ -236,9 +236,7 @@ $str = require('values.php');
 					<paper-spinner active="{{reqAjaxLoading}}"></paper-spinner>
 				</div>
 				<code style="display:block;padding:3%">
-					<div style="display:none">
-					  <span id="fut_leverage"><br /></span>
-					</div>
+					<span id="fut_leverage">杠杆: {{leverage}} 倍</span><br />
 					<span id="fut_original_price" style="display:none">原价: {{original_price}}<br /></span>
 					价格: {{stock_price}}<Br />
 					持有: {{stock_holding}} -> <span id="after_stkholding"></span><br />

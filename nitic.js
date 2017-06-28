@@ -186,7 +186,17 @@ function decimal(num,v)
 
 //info
 function updateinfo(){
-	document.querySelector("#info").innerHTML="<p>System Information:"+window.navigator.userAgent+"</p>"+"Contributor:"+"<br />"+"ilufang "+"<br />"+"<a href='https://blog.mrtunnel.com'>Mr Tunnel's Lonely Hearts Computing Club</a> "+"<br />"+"Hu Qingyang"+"<br />"+"rickliu2000"+"<br />"+"Latest commit : <code>"+"20170628"+"</code> <br /> <br />"+"View Source"+"<br />"+"<a href='https://github.com/ilufang/nitic'>https://github.com/ilufang/nitic</a> "+"<br />"+" <a href='https://github.com/MrTunnels/nitic'>https://github.com/MrTunnels/nitic</a>";
+	document.querySelector("#info").innerHTML="<p>System Information:"+
+		window.navigator.userAgent+"</p>"+
+		"Contributor:"+"<ul>"+
+		"<li><a href='https://fang.lu' target='_blank'>ilufang</a></li>"+
+		"<li><a href='https://blog.mrtunnel.club' target='_blank'>Mr Tunnel's Lonely Hearts Computing Club</a></li>"+
+		"<li>Hu Qingyang</li>"+
+		"<li>rickliu2000</li>"+"</ul>"+
+		"Latest commit : <code>"+"20170628"+"</code> <br /> <br />"+
+		"View Source"+"<br />"+
+		"<a href='https://github.com/ilufang/NITIC' target='_blank'>(legacy) ilufang/NITIC</a> "+"<br />"+
+		"<a href='https://github.com/MrTunnels/nitic' target='_blank'>MrTunnels/nitic</a>";
 }
 // Stock
 var stockinfo;
