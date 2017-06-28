@@ -83,12 +83,19 @@ if (!$stk_profile) {
 if (strcasecmp($row['type'], "STK")==0) {
 	$total = $amt * $req_price;
 	$balance_stk -= $total;
-} else if (strcasecmp($row['type'], "FUT")==0 || strcasecmp($row['type'], "CUR")==0){
+} elseif (strcasecmp($row['type'], "FUT")==0){
 	if ($stk_profile['amt']==0) {
 		$balance_fut -= abs($amt)*$req_price/$row['leverage'];
 
 	} else {
 		$balance_fut += abs($amt)*$stk_profile['price0']/$row['leverage']-($amt)*($req_price-$stk_profile['price0']);
+	}
+} elseif(strcasecmp($row['type'], "CUR")==0) {
+	if ($stk_profile['amt']==0) {
+		$balance_cur -= abs($amt)*$req_price/$row['leverage'];
+
+	} else {
+		$balance_cur += abs($amt)*$stk_profile['price0']/$row['leverage']-($amt)*($req_price-$stk_profile['price0']);
 	}
 } else {
 	$errid = generateID();

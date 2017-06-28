@@ -15,6 +15,12 @@ $db_name = "nitic";			// Name for DB
 $admin_user = "nitic-root";	// Admin Username
 $admin_pswd = "nitic.2015";	// Admin Password
 
+// Server meta
+$server_hostname = "nitic.example.com";
+
+// Random verification seeds
+$hash_salt = "0123456789abcdef";
+
 // Encrypt key for cookie
 //$cookie_key = "NITIC";
 //require '.cookie.php';

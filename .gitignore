@@ -1,6 +1,6 @@
 /chrome/*
 *.log
 *.gz
-/tokens.csv
+*.csv
 .DS_Store
 bower_components

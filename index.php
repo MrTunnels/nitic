@@ -390,8 +390,8 @@ $str = require('values.php');
 			document.querySelector("#after_stkholding").innerHTML = tmpl.stock_holding+abs_amt;
 
 			tmpl.balance*=1;
-			if (tmpl.stock_type=="FUT") {
-				// Futures
+			if (tmpl.stock_type=="FUT" || tmpl.stock_type=="CUR") {
+				// Futures & Forex
 				if (tmpl.stock_holding==0) {
 					// New session
 					tmpl.balance_after = tmpl.balance-tmpl.amt*tmpl.stock_price/tmpl.leverage;

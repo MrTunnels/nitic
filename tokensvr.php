@@ -1,4 +1,5 @@
 <?php
+require('consts.php');
 if (array_key_exists("dhash", $_REQUEST)) {
 	header("Content-Type: text/plain");
 	$ip = $_REQUEST['ip'];
@@ -6,7 +7,7 @@ if (array_key_exists("dhash", $_REQUEST)) {
 	$ssid = $_REQUEST['ssid'];
 	$uag = $_REQUEST['uag'];
 	$ref = $_REQUEST['ref'];
-	$dhash = sha1("3VblZ6z05ujElhUoehC4r8EsPppM4VM$ip$skey$ssid$uag$ref");
+	$dhash = sha1("$hash_salt$ip$skey$ssid$uag$ref");
 	if ($_REQUEST['dhash']===$dhash) {
 		$token = sha1("nitic-".date("dS \of F Y h:i:s ").rand());
 		file_put_contents("tokens.csv", file_get_contents("tokens.csv")."$token, $ip, $ssid, $skey, $uag, $ref\n");
@@ -17,5 +18,5 @@ if (array_key_exists("dhash", $_REQUEST)) {
 	}
 } else {
 	header("Content-Type: application/json");
-	die(json_encode(array("http://nitic.oscs.io")));
+	die(json_encode(array("https://$server_hostname")));
 }

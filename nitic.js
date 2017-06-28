@@ -320,8 +320,12 @@ function stockDetails(idx) {
 	//console.log(stock);
 	document.querySelector("#btn_buy").style.display="inline-block";
 	document.querySelector("#btn_sell").style.display="inline-block";
-	if (stock.type == 'FUT') {
-		tmpl.balance = tmpl.balance_futures;
+	if (stock.type == 'FUT' || stock.type == 'CUR') {
+		if (stock.type == 'FUT')
+			tmpl.balance = tmpl.balance_futures;
+		else
+			tmpl.balance = tmpl.balance_currency;
+
 		if (stock.amt > 0) {
 			document.querySelector("#btn_buy").style.display="none";
 		}
@@ -333,10 +337,6 @@ function stockDetails(idx) {
 			document.querySelector("#fut_original_price").style.display="inline";
 		}
 		document.querySelector("#fut_leverage").style.display="inline";
-	} else if (stock.type == 'CUR'){
-		tmpl.balance = tmpl.balance_currency;
-		document.querySelector("#fut_leverage").style.display="none";
-		document.querySelector("#fut_original_price").style.display="none";
 	} else {
 		tmpl.balance = tmpl.balance_stock;
 		document.querySelector("#fut_leverage").style.display="none";
